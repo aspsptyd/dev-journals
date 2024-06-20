@@ -1,7 +1,7 @@
 # Product Documentation ME
 Dokumentasi produk Mobile Engineer pada product maintain di Goodeva<br /><br />
 
-# Soon, Release V1.0-beta
+# Initial Release v1.0-Beta
 
 - Product rilis changelog dari masing-masing product yang ada yaitu: OPA, Smartsafety, DFIT (INDE berikut ASTO)
 - Product lainnya yaitu OPA for FitBit
