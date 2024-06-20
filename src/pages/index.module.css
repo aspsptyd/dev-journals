@@ -5,9 +5,9 @@
 
 .heroBanner {
   padding: 4rem 0;
-  text-align: center;
+  text-align: left;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +20,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.backgroundImage {
+  background: url('https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg');
+  background-size: cover;
+  filter: brightness(100%);
+}
+
+.backgroundImage2 {
+  background: url('https://images.pexels.com/photos/6424584/pexels-photo-6424584.jpeg');
+  background-size: cover;
+  filter: brightness(100%);
 }
