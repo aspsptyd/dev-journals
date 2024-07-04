@@ -41,7 +41,7 @@ function NewContent() {
                 <Link
                   className="button button--secondary button--lg"
                   to="/docs/overviews">
-                  🎉 &nbsp;&nbsp;Welcome Panelers!
+                  🎉 &nbsp;&nbsp;Welcome Devs!
                 </Link>
               </div>
             </td>
@@ -50,7 +50,7 @@ function NewContent() {
                 <Link
                   className="button button--secondary button--lg"
                   to="/docs/overviews">
-                  🎲 &nbsp;&nbsp;Documentations
+                  🎲 &nbsp;&nbsp;Journals
                 </Link>
               </div>
             </td>
@@ -59,7 +59,7 @@ function NewContent() {
                 <Link
                   className="button button--secondary button--lg"
                   to="/blog">
-                  👨‍💻 &nbsp;&nbsp;Post of Develop
+                  👨‍💻 &nbsp;&nbsp;Posts Insight
                 </Link>
               </div>
             </td>
