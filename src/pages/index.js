@@ -17,7 +17,7 @@ function HomepageHeader() {
         </Heading>
 
         <p style={{ fontSize: '18px' }}>{siteConfig.tagline}</p>
-        <p style={{ fontSize: '18px' }}>Jika kamu ingin menjadi bagian sebagai creator (contributor) di panel ini juga bisa banget, kirimkan request disini</p>
+        <p style={{ fontSize: '18px' }}>Jika kamu ingin menjadi bagian <u>sebagai creator</u> (contributor) di panel ini juga bisa banget, kirimkan request <a target="_blank" href="https://github.com/opensource-direct/product-documentation/issues/3" style={{ color: 'white', fontWeight: 'bold' }}>dimari</a></p>
       </div>
     </header>
   );

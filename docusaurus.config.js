@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Journaling Research & Development',
   tagline: 'Hi, Panel ini creator buat untuk mencurahkan sekaligus sebagai catatan perjalanan hasil selama berkarir sebagai Software Engineer, disini juga kami sebagai creator panel berharap bisa menjadikan manfaat bagi para pembaca.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/pavicon_2.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -73,7 +73,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documentations',
+            label: 'Journals',
           },
           {to: '/blog', label: 'Post Devs', position: 'left'},
         ],
