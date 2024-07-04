@@ -10,4 +10,7 @@ Pada release self journaling _v2.0_ ini ada beberapa update seperti blog post da
 1. Welcome Devs!
 
 <br />
+Feeature repository publish to github.io
+
+<br />
 Copyright © 2024 Research & Development. All right reserved.
