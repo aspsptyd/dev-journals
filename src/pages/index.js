@@ -17,6 +17,7 @@ function HomepageHeader() {
         </Heading>
 
         <p style={{ fontSize: '18px' }}>{siteConfig.tagline}</p>
+        <p style={{ fontSize: '18px' }}>Jika kamu ingin menjadi bagian sebagai creator (contributor) di panel ini juga bisa banget, kirimkan request disini</p>
       </div>
     </header>
   );
@@ -39,8 +40,8 @@ function NewContent() {
               <div>
                 <Link
                   className="button button--secondary button--lg"
-                  to="/docs/intro">
-                  📥 &nbsp;&nbsp;Overviews
+                  to="/docs/overviews">
+                  🎉 &nbsp;&nbsp;Welcome Panelers!
                 </Link>
               </div>
             </td>
@@ -48,7 +49,7 @@ function NewContent() {
               <div>
                 <Link
                   className="button button--secondary button--lg"
-                  to="/docs/intro">
+                  to="/docs/overviews">
                   🎲 &nbsp;&nbsp;Documentations
                 </Link>
               </div>
@@ -58,7 +59,7 @@ function NewContent() {
                 <Link
                   className="button button--secondary button--lg"
                   to="/blog">
-                  🚧 &nbsp;&nbsp;Changelogs
+                  👨‍💻 &nbsp;&nbsp;Post of Develop
                 </Link>
               </div>
             </td>

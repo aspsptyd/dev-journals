@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation Labs ME',
-  tagline: 'Dokumentasi mobile engineer terkait historikal improvement, changelog product version, serta detail terkait algoritma yang dintegrasikan kedalam setiap product, kami juga collect setiap issue-issue terkait temuan sekaligus fix',
+  title: 'Journaling Research & Development',
+  tagline: 'Hi, Panel ini creator buat untuk mencurahkan sekaligus sebagai catatan perjalanan hasil selama berkarir sebagai Software Engineer, disini juga kami sebagai creator panel berharap bisa menjadikan manfaat bagi para pembaca.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -34,6 +34,11 @@ const config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -41,17 +46,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,9 +63,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Documentation Labs ME',
+        title: 'Research & Development',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo Labs ME',
           src: 'img/logo_new.svg',
         },
         items: [
@@ -76,20 +73,21 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentations',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Post Devs', position: 'left'},
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} mobilenginer. All right reserved. Built from 🇮🇩`,
+        copyright: `Copyright © ${new Date().getFullYear()} Research & Development. All right reserved. Built from 🇮🇩 <br />Powered by Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),
+  
 };
 
 export default config;
