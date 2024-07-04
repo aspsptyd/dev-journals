@@ -66,7 +66,7 @@ const config = {
         title: 'Research & Development',
         logo: {
           alt: 'Logo Labs ME',
-          src: 'img/logo_new.svg',
+          src: 'img/logo_10.svg',
         },
         items: [
           {
@@ -75,7 +75,7 @@ const config = {
             position: 'left',
             label: 'Journals',
           },
-          {to: '/blog', label: 'Post Devs', position: 'left'},
+          {to: '/blog', label: 'Posts Insight', position: 'left'},
         ],
       },
       footer: {
