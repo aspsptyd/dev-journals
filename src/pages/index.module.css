@@ -5,9 +5,9 @@
 
 .heroBanner {
   padding: 4rem 0;
-  text-align: center;
+  text-align: left;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +20,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.backgroundImage {
+  background: url('https://r4.wallpaperflare.com/wallpaper/806/571/730/microsoft-windows-windows-10-galaxy-tent-wallpaper-a201d2a0cde69e2baad8a205f0a859c2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top;
+}
+
+.backgroundImage2 {
+  background: url('https://r4.wallpaperflare.com/wallpaper/806/571/730/microsoft-windows-windows-10-galaxy-tent-wallpaper-a201d2a0cde69e2baad8a205f0a859c2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center bottom;
 }
