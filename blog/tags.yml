@@ -14,3 +14,11 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+welcoming:
+  label: Welcome to Devs
+  permalink: /welcoming
+  description: Selamat datang devs
+tech-insight:
+  label: Tech Insight
+  permalink: /tech-insight
+  description: Tech insight merupakan postingan terkait metode, technology insight, dan new ideas yang sudah di implementasi dalam karir atau dalam pekerjaan sehari-hari
