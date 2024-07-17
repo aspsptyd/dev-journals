@@ -74,7 +74,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Journals',
+            label: 'Journal of Develop',
           },
           {to: '/blog', label: 'Posts Insight', position: 'left'},
         ],
