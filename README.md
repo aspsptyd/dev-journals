@@ -13,4 +13,4 @@ Pada release self journaling _v2.0_ ini ada beberapa update seperti blog post da
 Feeature repository publish to github.io
 
 <br />
-Copyright © 2024 Research & Development. All right reserved.
+Copyright © 2024 Jurnal Develop Asep Septiadi. All right reserved.
