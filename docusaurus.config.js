@@ -22,7 +22,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'aspsptyd', // Usually your GitHub org/user name.
-  projectName: 'dev-panels', // Usually your repo name.
+  projectName: 'dev-journals', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
