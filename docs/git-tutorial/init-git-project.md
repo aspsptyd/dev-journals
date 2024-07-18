@@ -78,3 +78,33 @@ Jika sudah maka akan tampak seperti berikut
 Dengan demikian proses inisialisasi sudah berhasil
 
 ![Finish](./img/finish-init.png)
+
+### c. Connect Remote Repository
+Selanjutnya kita akan menghubungkan dengan repository online agar mudah di maintain, disini kita menggunakan GitHub, sebelumnya buat Repository terlebih dahulu
+
+![Finish](./img/create-repo-onilne.png)
+
+Karena project sudah kita buat maka kita gunakan `push an existing repository`
+
+![Finish](./img/existing-repo.png)
+
+Kemudian lakukan remote repository dengan command berikut
+
+```.sh
+╰─⠠⠵ git remote add origin https://github.com/teknovasi-suryatama-official/koperasi-desa.git
+╰─⠠⠵ git branch -M master
+╰─⠠⠵ git push origin master
+Enumerating objects: 99, done.
+Counting objects: 100% (99/99), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (82/82), done.
+Writing objects: 100% (99/99), 72.80 KiB | 8.09 MiB/s, done.
+Total 99 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/teknovasi-suryatama-official/koperasi-desa.git
+ * [new branch]      master -> master
+```
+
+Jika sudah berhasil repository online dan local sudah berhasil di hubungkan, sehingga untuk memaintain project versioning lebih mudah dan posible kolaborasi dengan tim
+
+![Finish](./img/push-success-repo-online.png)
