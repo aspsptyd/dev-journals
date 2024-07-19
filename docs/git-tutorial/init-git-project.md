@@ -9,7 +9,7 @@ Selanjutnya kita akan mendemonstrasikan bagaimana memulai (inisialisasi) git pad
 Sebelum itu kita perlu cek PHP version kita pada komputer local kita seperti berikut
 
 ```.sh
-╰─○ php --version
+~$ php --version
 PHP 8.2.20 (cli) (built: Jun  4 2024 13:22:51) (NTS)
 Copyright (c) The PHP Group
 Zend Engine v4.2.20, Copyright (c) Zend Technologies
@@ -19,7 +19,7 @@ Zend Engine v4.2.20, Copyright (c) Zend Technologies
 Untuk versi php yang akan kita gunakan adalah versi Laravel 10 maka untuk membuat project dapat dilakukan seperti berikut
 
 ```.sh
-╰─○ composer create-project laravel/laravel koperasi-desa "10.*" 
+~$ composer create-project laravel/laravel koperasi-desa "10.*" 
 Creating a "laravel/laravel" project at "./koperasi-desa"
 Installing laravel/laravel (v10.3.3)
   - Installing laravel/laravel (v10.3.3): Extracting archive
@@ -38,18 +38,18 @@ Pastikan sudah seperti pada gambar berikut
 Pada tahapan selanjutnya kita akan buka project yang baru saja dibuat dengan vscode
 
 ```.sh
-╰─○ cd koperasi-desa
-╰─○ code .
+~$ cd koperasi-desa
+~$ code .
 
 Tunggu sampai VSCode membuka project tujuan kita
 ```
 
-![Selesai Buat Project Laravel](./img/open-project-in-vscode.png)`
+![Selesai Buat Project Laravel](./img/open-project-in-vscode.png)
 
 Jika sudah kemudian untuk meng-inisialisasi git project tersebut kita cukup ketikkan command berikut
 
 ```.sh
-╰─○ git init
+~$ git init
 Initialized empty Git repository in /Users/sample/Desktop/laravel/koperasi-desa/.git/
 ```
 
@@ -58,8 +58,8 @@ Jika sudah maka akan tampak seperti berikut
 ![Inisialisasi](./img/inisialisasi-project-git.png)
 
 ```.sh
-╰─○ git add .
-╰─○ git commit -m "First commit project"
+~$ git add .
+~$ git commit -m "First commit project"
 [master (root-commit) a4805a1] First commit project
  76 files changed, 11238 insertions(+)
  create mode 100644 .editorconfig
@@ -91,9 +91,9 @@ Karena project sudah kita buat maka kita gunakan `push an existing repository`
 Kemudian lakukan remote repository dengan command berikut
 
 ```.sh
-╰─⠠⠵ git remote add origin https://github.com/teknovasi-suryatama-official/koperasi-desa.git
-╰─⠠⠵ git branch -M master
-╰─⠠⠵ git push origin master
+~$ git remote add origin https://github.com/teknovasi-suryatama-official/koperasi-desa.git
+~$ git branch -M master
+~$ git push origin master
 Enumerating objects: 99, done.
 Counting objects: 100% (99/99), done.
 Delta compression using up to 8 threads

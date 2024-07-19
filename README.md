@@ -11,6 +11,9 @@ Web jurnal develop ini adalah hasil apa yang pernah dipelajari dan diimplementas
    2. Init Project Git Local
    3. Maintain Versioning via Control Pull Request (PR)
 
+3. Laravel Master
+   1. Membuat Project Laravel - Starter
+   
 <br />
 Feeature repository publish to github.io, For details → https://aspsptyd.github.io/dev-journals
 
