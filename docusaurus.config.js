@@ -74,14 +74,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Journals',
+            label: 'Journal of Develop',
           },
           {to: '/blog', label: 'Posts Insight', position: 'left'},
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Research & Development. All right reserved. Built from 🇮🇩 <br />Powered by Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jurnal Develop Asep Septiadi. All right reserved. Built from 🇮🇩 <br />Powered by Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
