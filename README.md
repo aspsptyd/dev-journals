@@ -1,13 +1,16 @@
 ## Self Journaling of Development v2.0
-Pada release self journaling _v2.0_ ini ada beberapa update seperti blog post dan journaling, di next versi _v2.1_ akan ada update beberapa blog dan post terkait pembahasan seputar git dan idea insight
 
 ## Updates Blog Posts
-### v2.0
+### v4.0
 1. 001 - Standard Brancing Git
 
 ## Update Journal
-### v2.0
+### v4.0
 1. Welcome Devs!
+2. Git Master
+   1. Konfigurasi Dasar Git
+   2. Init Project Git Local
+   3. Maintain Versioning via Control Pull Request (PR)
 
 <br />
 Feeature repository publish to github.io
