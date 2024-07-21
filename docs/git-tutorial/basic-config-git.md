@@ -9,7 +9,7 @@ Pada dasarnya git juga harus ada konfigurasi dasar yang perlu di settup agar ket
 Sebelumnya kita perlu mengecek apakah Git sudah terinstall atau belum di sistem komputer kita, yaitu dengan cara
 
 ```.sh
-╰─○ git --version
+~$ git --version
 git version 2.37.3
 ```
 
@@ -17,9 +17,9 @@ git version 2.37.3
 Pastikan settingan dari konfigurasi global git pada local komputer kita sudah disetup seperti berikut
 
 ```.sh
-╰─○ git config --global user.name "******"
-╰─○ git config --global user.email "******@gmail.com"
-╰─○ git config --list 
+~$ git config --global user.name "******"
+~$ git config --global user.email "******@gmail.com"
+~$ git config --list 
 ```
 
 Response

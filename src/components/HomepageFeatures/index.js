@@ -4,30 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Changelog of Version',
+    title: 'Data Portofolio',
     Svg: require('@site/static/img/icon_3.svg').default,
     description: (
       <>
-        Historical of improvement, can access detail feature on the products, no worry about lost data, we achieve all recap.
+        Kumpulan portofolio hasil kerja selama berkarir di dunia IT, mungkin belum lengkap akan terus dilengkapi
       </>
     ),
   },
   {
-    title: 'Documentation Breakdown',
+    title: 'Jurnal Develop',
     Svg: require('@site/static/img/icon_2.svg').default,
     description: (
       <>
-        We still update of documentation products at goodeva technology
+        Jurnal-jurnal terkait hasil pekerjaan selama berkarir, apa yang pernah dibuat dan apa yang pernah di pelajari kemudian diimplementasikan
       </>
     ),
   },
   {
-    title: 'Achievement & Improvement',
+    title: 'Sharing is Caring',
     Svg: require('@site/static/img/icon_1.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Tentunya sebagai sarana sharing, mungkin bisa bermanfaat di waktu mendatang, so Who Knows, yang bisa kita lakukan just do it!
       </>
     ),
   },
