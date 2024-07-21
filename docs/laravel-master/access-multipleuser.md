@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Posible Multiaccess User Laravel with Middleware [Soon]
+# Suport Multiaccess User Laravel with Middleware [Soon]
 
 ![image](./img/middleware.png)
 
