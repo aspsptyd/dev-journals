@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Journaling Research & Development v4.1',
+  title: 'Jurnal C-Accept v4.1',
   tagline: 'Hi, Panel ini creator buat untuk mencurahkan sekaligus sebagai catatan perjalanan hasil selama berkarir sebagai Software Engineer, disini juga kami sebagai creator panel berharap bisa menjadikan manfaat bagi para pembaca.',
   favicon: 'img/pavicon_2.ico',
 
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Research & Development',
+        title: 'Jurnal C-Accept v4.1',
         logo: {
           alt: 'Logo Labs ME',
           src: 'img/logo_10.svg',
@@ -81,7 +81,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Jurnal Develop Asep Septiadi v4.1. All right reserved. Built from 🇮🇩 <br />Powered by Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jurnal C-Accept v4.1. All right reserved. Built from 🇮🇩 <br />Powered by Docusaurus - Maintain by Asep Septiadi`,
       },
       prism: {
         theme: prismThemes.github,

@@ -77,7 +77,7 @@ Klik pada tombol `Compare & pull request`, buat title dan deskripsi dari PR ters
 
 Maka dari itu kondisi saat ini kurang lebih branch akan tampak seperti pada gambar berikut
 
-![image](./img/first-condition.png)
+![image](./img/first-condition.jpg)
 
 _Done & Soon..._
 
