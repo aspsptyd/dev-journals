@@ -5,14 +5,16 @@ Web jurnal develop ini adalah hasil apa yang pernah dipelajari dan diimplementas
 1. 001 - Standard Brancing Git
 
 ## Update Journal :books:	
-1. Welcome Devs!
-2. Git Master
-   1. Konfigurasi Dasar Git
-   2. Init Project Git Local
-   3. Maintain Versioning via Control Pull Request (PR)
+1. Welcome Devs! ✓
+2. Git Master ✓
+   1. Konfigurasi Dasar Git ✓
+   2. Init Project Git Local ✓
+   3. Maintain Versioning via Control Pull Request (PR) ✓
 
-3. Laravel Master
-   1. Membuat Project Laravel - Starter
+3. Laravel Master ✓
+   1. Membuat Project Laravel - Starter ✓
+   2. Basic Integration Admin Panel 🚧 Soon!
+   3. Support Multiaccess User Laravel with Middleware 🚧 Soon!
    
 <br />
 Feeature repository publish to github.io, For details → https://aspsptyd.github.io/dev-journals
